@@ -8,7 +8,7 @@ const Footer = () => {
 
 <footer class="header-color mt-5">
         <div class="footer pt-5 ">
-            <div class="text-white">
+            <div class="text-white" id='footer-img'>
            <img src={img4.src} alt=""/> 
                 <p class="pb-3 pt-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis in accusantium
                     labore excepturi iure.
@@ -17,13 +17,13 @@ const Footer = () => {
 
                 <small>© Copyright 2022 Rushan Smart Laundry</small>
             </div>
-            <div class="text-white pt-3">
+            <div class="text-white pt-3" id='condition'>
                 <h6>Privacy & Policy
                 </h6>
                 <h6> Terms & Conditions</h6>
 
             </div>
-            <div>
+            <div class="form">
                 <form class="d-flex">
                     <input class="form-control me-2" type="search" placeholder="Enter your phone number here"
                         aria-label="Search"/>
@@ -31,7 +31,9 @@ const Footer = () => {
                      
                     <button class="btn border bg-light" type="submit">Register</button>
                 </form>
-                <img class="pt-3 foo" src={img1.src} alt=""/>
+               <div id='foo-img'>
+               <img class="pt-3 foo" src={img1.src} alt=""/>
+               </div>
 
                  <div class="pt-3 social-media">
                 <div> <a href=""><i class="fa-brands fa-square-whatsapp"></i></a></div>

@@ -15,55 +15,46 @@ const Main = () => {
     return (
        <>
        <h5 class="text-center works">How Rushan Works</h5>
+
         <p class="text-center">Save you time, money and energy and start to washing with us</p>
 
-        <section class="d-flex mt-5 pt-3 justify-content-evenly">
-
+        <section class="d-flex mt-5 pt-3 justify-content-evenly gap-5 " id='choose'>
             <div>
-            <img src={img11.src} alt="" />
-               
+            <img src={img11.src} alt="" />   
             </div>
-
-            <div>
+            <div class='choose-text'>
                 <h5 class="pt-5">Choose a Service</h5>
                 <p class="pt-2">Save you time, money and energy and start to washing with us,
                     How to Order?</p>
 
-
                 <div>
-                    <i class="fa-sharp fa-solid fa-square-check rushan-color"></i>
+                    {/* <i class="fa-sharp fa-solid fa-square-check rushan-color"></i> */}
                     <label class="form-check-label" for="flexCheckDefault">
                         Download App
                     </label>
                 </div>
                 <div>
-                    <i class="fa-sharp fa-solid fa-square-check rushan-color"></i>
+                    {/* <i class="fa-sharp fa-solid fa-square-check rushan-color"></i> */}
                     <label class="form-check-label" for="flexCheckChecked">
                         Find Categories
                     </label>
                 </div>
                 <div>
-                    <i class="fa-sharp fa-solid fa-square-check rushan-color"></i>
+                    {/* <i class="fa-sharp fa-solid fa-square-check rushan-color"></i> */}
                     <label class="form-check-label" for="flexCheckChecked">
                         Start schedule your laundry
                     </label>
                 </div>
 
             </div>
-
-
-
-
         </section>
 
-        <section class="d-flex mt-5 pt-3 px-5 mx-5 justify-content-evenly">
+        <section class="d-flex mt-5 pt-3 px-5 mx-5 justify-content-evenly gap-5 "  id='schedule'>
             <div>
                 <h5 class="pt-5">Schedule a pickup</h5>
                 <p class="pt-2 pe-5 me-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quod voluptate
                     perferendis soluta distinctio quas vel, ipsam atque aut reiciendis expedita itaque voluptas esse
                     similique, beatae libero eum eligendi corporis!</p>
-
-
             </div>
 
             <div>
@@ -71,13 +62,13 @@ const Main = () => {
             </div>
         </section>
 
-        <section class="d-flex mt-5 pt-3 justify-content-between ps-5 ms-5">
+        <section class="d-flex mt-5 pt-3 justify-content-evenly gap-5 px-5" id='items'>
 
             <div class="">
             <img src={img10.src} alt="" />
             </div>
 
-            <div class="px-5 ms-5">
+            <div id='get-items'>
                 <h5 class="pt-5">Get your clean Items</h5>
                 <p class="pt-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid impedit, repellat quia
                     sit, repellendus rem consequatur distinctio modi fugit molestiae quod et, placeat commodi. A soluta
@@ -91,15 +82,16 @@ const Main = () => {
         </section>
 
 
-        <section class="py-5 my-5">
-            <div class="bg-color text-center py-5">
-                 <img class="pb-3" src={img6.src} alt="" />
-                <button type="button" class="btn header-color text-white">View More</button>
-
+        <section class="py-2 my-3 bg-color">
+            <div class="py-5 text-center" id='service'>
+                 <img src={img6.src} alt="" />
             </div>
+           <div className='text-center'>
+           <button type="button" class="btn header-color text-white">View More</button>
+           </div>
         </section>
 
-        <section>
+         <section>
             <section class="download">
                 <div class="mx-5 ps-5">
                     <div id="app">
@@ -112,8 +104,8 @@ const Main = () => {
                     <img class="mt-3" src={img1.src} alt=""/>
                 </div>
 
-                <div class="group-img text-center">
-                    <img width="60%" src={img7.src} alt=""/>
+                  <div class="group-img text-center">
+                    <img width="45%" src={img7.src} alt=""/>
 
                     <div id="bg-images">
                         <img src={img2.src} alt=""/>
@@ -121,7 +113,7 @@ const Main = () => {
                 </div>
 
             </section>
-        </section>
+        </section>  
         <section class="pt-5">
             <div class="bg-color pt-5">
                 <div>
@@ -143,7 +135,7 @@ const Main = () => {
                     <p class="text-center">Gallery and some inspiration for doing a good washer</p>
                 </div>
 
-                <div class="py-5 text-center">
+                <div class="py-5 text-center" id="mission-img">
                     <img src={img12.src} alt=""/>
 
                     <img class="pb-5" src={img13.src} alt=""/>
