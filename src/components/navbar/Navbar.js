@@ -14,9 +14,9 @@ const Navbar = () => {
                         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
 
                             <ul class="navbar-nav mb-3 mb-lg-0">
-                                <li class="nav-item ps-5 ms-5 ">
+                                <li class="nav-item nav-img">
 
-                                    <img src={img3.src} alt=""/>
+                                  <img src={img3.src} alt=""/>
 
                                 </li>
 
@@ -28,7 +28,6 @@ const Navbar = () => {
 
                             </form>
                             <form id="submit">
-
                                 <button class="btn border text-white" type="submit">Get the B2B</button>
                             </form>
                         </div>

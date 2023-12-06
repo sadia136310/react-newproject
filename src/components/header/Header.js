@@ -7,18 +7,17 @@ const Header = () => {
         <>
             <header class="header-color">
 
-                <section class="flexible-container ">
+                <section class="flexible-container">
                     <div class="container">
 
                         <div class="container2">
-                            <h3 class="text-white  pb-4">Clean clothes
+                            <h3 class="text-white pb-2">Clean clothes
                                 in an instant</h3>
-
                             <small id="para" class="text-white">We will use all our strength to shorten the time it
                                 takes for the laundry to take place</small>
                         </div>
 
-                        <div class="my-5">
+                        <div class="my-5" id='header-img'>
                             <img src={img1.src} alt=""/>
 
                         </div>
