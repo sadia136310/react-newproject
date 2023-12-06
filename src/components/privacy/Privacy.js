@@ -3,85 +3,105 @@ import React from 'react';
 const PrivacyLayout = () => {
     return (
         <>
-        
-        <h2 class="text-center pt-5 rushan-color">Privacy Policy</h2>
-        <p class="text-center"><small>Assurance For Confidentiality Of User Information</small></p>
 
-        <div class="px-5 mx-5">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates corrupti accusamus nobis dolore est
-                repellendus alias mollitia at esse voluptas, reprehenderit illum dicta earum animi reiciendis impedit
-                molestiae quos numquam?Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae rem enim eaque
-                illum fugiat culpa reprehenderit pariatur voluptas amet quibusdam impedit perferendis, accusantium
-                accusamus, iure excepturi veritatis fuga debitis consequatur. Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Eveniet consectetur ea culpa magnam animi, iusto minima quis modi incidunt quasi
-                numquam sequi, nisi veniam, officia a quisquam maxime odio! Modi?</p>
+            <h2 class="text-center pt-5 rushan-color">Privacy Policy</h2>
+            <p class="text-center"><small>Assurance For Confidentiality Of User Information</small></p>
 
-            <h4 class="pt-4">Personal identification information</h4>
+            <div class="px-5 mx-5">
+                <p>Welcome to our Rushan Smart Laundry. This Privacy Policy describes how we collect, use, disclose, and protect your personal information when you visit our website or use our mobile application (collectively, the Services).
+                    By using our Services, you agree to the collection and use of your information in accordance with this Privacy Policy.</p>
 
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint animi exercitationem qui, earum quo
-                corrupti eveniet voluptatibus alias natus harum dolores ullam maxime fugiat. Quo sint aspernatur labore
-                a esse!L Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat soluta molestiae nulla nobis
-                repellendus ex magnam dignissimos eaque id quasi? Accusamus ut repudiandae modi illum iure reiciendis
-                quidem vitae esse. </p>
-
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti autem ea obcaecati! Iusto, tempore modi
-                nisi velit dolore ipsum molestiae consequuntur ea id mollitia quae laborum eius, deleniti ab officia.
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis corrupti laborum enim cumque qui eius
-                facilis at aspernatur. Ut, distinctio ratione. Sint ex vitae labore maxime officiis inventore
-                perspiciatis doloremque!</p>
-        </div>
-
-        <div class="px-5 mx-5">
-
-
-            <h4 class="pt-4">Non-personal identification information</h4>
-
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint animi exercitationem qui, earum quo
-                corrupti eveniet voluptatibus alias natus harum dolores ullam maxime fugiat. Quo sint aspernatur labore
-                a esse!L Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat soluta molestiae nulla nobis
-                repellendus ex magnam dignissimos eaque id quasi? Accusamus ut repudiandae modi illum iure reiciendis
-                quidem vitae esse. </p>
-
-        </div>
-
-        <div class="px-5 mx-5">
-
-
-            <h4 class="pt-4">Non-personal identification information</h4>
-
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint animi exercitationem qui, earum quo
-                corrupti eveniet voluptatibus alias natus harum dolores ullam maxime fugiat. Quo sint aspernatur labore
-                a esse!L Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat soluta molestiae nulla nobis
-                repellendus ex magnam dignissimos eaque id quasi? Accusamus ut repudiandae modi illum iure reiciendis
-                quidem vitae esse. </p>
-
-        </div>
-
-        <div class="px-5 mx-5">
-
-
-            <h4 class="pt-4">Use of the collected information</h4>
-            <h6 class="pb-3">Following are the purposes <span class="rushan-color">Rushan Smart Laundry </span>may use the collected User
-                information.
-            </h6>
-            <div class="ps-3">
+                <h4 class="pt-4">Information We Collect</h4>
+                <h6>Personal Information:</h6>
                 <ul>
-                    <li>To improve User service and be able to respond to their queries or service requests efficiently.</li>
-            <li>To be able to personalize user experience by understanding how Users use the resources or service on the
-                Site.
-            </li>
-            <li> To improve the Site or its services using customers’ feedback as the guidance in particular.</li>
-            <li>To process online payments as users, place orders and make payments. (Information is not shared with any
-                outside party except the amount of information required compulsorily for the service)</li>
-            <li>To make arrangement for a contest, survey, promotion, and similar online events.
-            </li>
-            <li>To offer Users resources or information as per their agreement to receive them about different topics
-                that we find useful for them.
-            </li>
-            <li>To send users on a periodic basis.</li>
+
+                    <li>
+                        When you create an account, we may collect your name, email address, phone number, and address.
+                    </li>
+                    <li>
+                        When you place an order, we may collect payment information, delivery preferences, and any additional information necessary to fulfill your order.
+                    </li>
+                </ul>
+                <h6>Usage Information:
+
+                </h6>
+                <ul>
+
+                    <li>
+                        We collect information about how you interact with our website and app, including pages visited, features used, and other analytical data.
+                    </li>
+
+                </ul>
+                <h6>Device Information:   </h6>
+                <ul>
+                    <li>
+                        We may collect information about the device you use to access our Services, such as device type, operating system, and unique device identifiers.
+                    </li>
+
                 </ul>
             </div>
-        </div>
+            <div class="px-5 mx-5">
+                <h4 class="pt-4">How We Use Your Information?</h4>
+                <h6>Order Fulfillment:</h6>
+                <ul>
+                    <li>
+                        We use your information to process and fulfill orders, including delivery and payment processing.
+                    </li>
+                </ul>
+                <h6>Customer Support:</h6>
+                <ul>
+                    <li>
+                        We may use your contact information to respond to your inquiries, provide customer support, and address any issues.
+                    </li>
+
+                </ul>
+                <h6>Analytics:</h6>
+                <ul>
+                    <li>
+                        We use collected data for analytics purposes to improve our Services, enhance user experience, and optimize our business operations.
+                    </li>
+
+                </ul>
+
+            </div>
+            <div class="px-5 mx-5">
+                <h4 class="pt-4">Information Sharing</h4>
+                <h6>Third-Party Service Providers:</h6>
+                <ul>
+                    <li>
+                        We may share your information with third-party service providers who assist us in delivering our services, such as payment processors and delivery partners.
+                    </li>
+                </ul>
+                <h6>Legal Compliance:</h6>
+                <ul>
+                    <li>
+                        We may disclose your information when required by law or in response to a valid legal request.
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="px-5 mx-5">
+                <h6 class="pt-4">Data Security</h6>
+
+                <p>We implement reasonable security measures to protect your personal information from unauthorized access, disclosure, alteration, and destruction.</p>
+            </div>
+            <div class="px-5 mx-5">
+                <h6 class="pt-4">Your Choices</h6>
+
+                <p>You can review and update your account information at any time. You may also opt-out of marketing communications by following the instructions in the emails or contacting us directly.</p>
+            </div>
+            <div class="px-5 mx-5">
+                <h6 class="pt-4">Changes to This Privacy Policy
+                </h6>
+                <p>We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated effective dat</p>
+            </div>
+            <div class="px-5 mx-5">
+                <h6 class="pt-4">Contact Us
+                </h6>
+                <p>If you have any questions or concerns about this Privacy Policy, please contact us at email@email.com</p>
+            </div>
+
         </>
     );
 };
